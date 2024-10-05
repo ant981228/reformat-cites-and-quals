@@ -8,10 +8,10 @@ This tool allows you to automatically reformat qualifications and citations for 
 
 ## Features
 
-- Quickly reformat qualifications into a cite-friendly format
-- Automatically reformat citations to a standardized format
-- Customizable hotkeys for easy access
-- Fun, Clod-themed progress indicators
+- Sends your inputs to a helpful and whimsical creature named Clod
+- Clod can reformat qualifications into a cite-friendly format
+- Clod can also automatically reformat citations to a standardized format
+- Customizable hotkeys
 
 ## Installation
 
@@ -50,7 +50,7 @@ This tool allows you to automatically reformat qualifications and citations for 
 3. To reformat qualifications:
    - Select the text containing qualifications
    - Press Ctrl+Shift+Q
-   - Your text will be sent to a helpful creature named Clod, who will drop whatever he is doing to reformat your cite
+   - Your text will be sent to a helpful creature named Clod, who will drop whatever he is doing to reformat your author's qualifications
    - The reformatted text will be copied to your clipboard
 
 4. To reformat citations:
@@ -74,6 +74,7 @@ You can configure your desired citation style by modifying the system prompt in 
 ## Notes
 
 - The program uses Claude, an AI model by Anthropic, to process and reformat the text. An internet connection is required for the program to function.
+- Since this is powered by an AI LLM, be aware that the model may hallucinate. Double check citations and qualifications for accuracy.  
 - Your API key is stored locally in a `config.ini` file for convenience and security.
 
 Enjoy your streamlined qualification and citation formatting experience!
