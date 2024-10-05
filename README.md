@@ -8,10 +8,10 @@ This tool allows you to automatically reformat qualifications and citations for 
 
 ## Features
 
-- Sends your inputs to a helpful and whimsical creature named Clod
-- Clod can reformat qualifications into a cite-friendly format
-- Clod can also automatically reformat citations to a standardized format
+- Reformat qualifications into a cite-friendly format
+- Reformats citations to a standardized format
 - Customizable hotkeys
+- Option to replace the default tooltips by sending your input to a whimsical creature named Clod, who will drop whatever he is doing to help you with your request. 
 
 ## Installation
 
@@ -50,13 +50,11 @@ This tool allows you to automatically reformat qualifications and citations for 
 3. To reformat qualifications:
    - Select the text containing qualifications
    - Press Ctrl+Shift+Q
-   - Your text will be sent to a helpful creature named Clod, who will drop whatever he is doing to reformat your author's qualifications
    - The reformatted text will be copied to your clipboard
 
 4. To reformat citations:
    - Select the text you would like to reformat into a citation
    - Press Ctrl+Shift+X
-   - Your text will be sent to a helpful creature named Clod, who will drop whatever he is doing to reformat your cite
    - The reformatted citation will be automatically pasted
 
 ## Customization
@@ -64,6 +62,8 @@ This tool allows you to automatically reformat qualifications and citations for 
 You can change the hotkeys by editing the `ReformatQualsCite_Hotkeys.ini` file in the same directory as the executable. The file will be created with default values on first run if it doesn't exist.
 
 You can configure your desired citation style by modifying the system prompt in `reformat_cite.py`. 
+
+You can enable or disable Clod by editing the hotkeys configuration file. 
 
 ## Troubleshooting
 
